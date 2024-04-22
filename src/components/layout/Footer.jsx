@@ -11,7 +11,7 @@ function Footer() {
     <>
       <footer id="#contact">
 
-        <div>
+        <div className="social">
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/maobetsy">

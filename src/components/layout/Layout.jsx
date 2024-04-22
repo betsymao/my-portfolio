@@ -6,9 +6,11 @@ import Footer from './Footer';
 function Layout() {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <div className="grid">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 }

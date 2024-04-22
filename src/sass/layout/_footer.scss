@@ -1,3 +1,32 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+@use '../abstracts/colors';
+
+footer {
+  padding-block: 1.8rem;
+  background-color: colors.$secondary-color;
+
+  .social {
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        padding: 2.4rem;
+
+        a {
+          color: #ffffff;
+          transform-origin: center;
+          transform: scale(1);
+          transition: transform .3s ease-in-out;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+}
