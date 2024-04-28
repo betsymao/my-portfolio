@@ -13,7 +13,7 @@ function Projects() {
 
           {/* Column 1 */}
           {/* Card */}
-          <article>
+          <article className="container">
 
             {/* Card Header */}
             <div>

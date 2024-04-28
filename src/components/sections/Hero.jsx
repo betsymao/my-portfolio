@@ -1,20 +1,23 @@
 function Hero() {
   return (
     <>
-      <section>
+      <section className="hero">
 
         {/* Two columns / Row */}
-        <div>
+        <div className="row container">
         
         {/* Column 1 */}
-        <div>
-          <h1>Betsy Mao</h1>
-          <p>Frontend Developer & UI/UX Developer</p>
-          <a href="#work" className="btn">View my work</a>
+        <div className="hero__content">
+          <h1 className="heading">Betsy Mao</h1>
+          <p className="subtext">I'm a <span>frontend</span> and <span>UI/UX developer</span> based in Melbourne.</p>
+          {/* <p className="subtext">Crafting engaging front-end interfaces.</p> */}
+          <div>
+            <a href="#work" className="btn cta">View my work</a>
+          </div>
         </div>
 
         {/* Column 2 */}
-        <svg width="912" height="865" viewBox="0 0 912 865" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg width="912" height="865" viewBox="0 0 912 865" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="86.5" y="356.5" width="299" height="299" rx="9.5" stroke="#3F2B7E"/>
           <rect x="86.5" y="356.5" width="299" height="299" rx="9.5" stroke="#3F2B7E"/>
           <rect x="492.5" y="485.5" width="239" height="239" rx="9.5" stroke="#3F2B7E"/>
@@ -44,7 +47,7 @@ function Hero() {
           <rect x="404.5" y="27.5" width="247" height="247" rx="9.5" stroke="#A90D25"/>
           <rect x="672" y="85" width="190" height="190" rx="10" fill="#3F2B7E"/>
           <rect x="672" y="85" width="190" height="190" rx="10" fill="#3F2B7E"/>
-        </svg>
+        </svg> */}
 
         </div>
 

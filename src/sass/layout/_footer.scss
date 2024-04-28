@@ -6,7 +6,7 @@
 
 footer {
   padding-block: 1.8rem;
-  background-color: colors.$secondary-color;
+  background-color: colors.$primary-color;
 
   .social {
     ul {
@@ -20,7 +20,7 @@ footer {
           color: #ffffff;
           transform-origin: center;
           transform: scale(1);
-          transition: transform .3s ease-in-out;
+          transition: transform .3s;
 
           &:hover {
             transform: scale(1.2);

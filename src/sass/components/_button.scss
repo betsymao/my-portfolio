@@ -1,3 +1,25 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+@use '../abstracts/colors';
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  color: colors.$light-color;
+  background-color: colors.$primary-color;
+  border-radius: 1rem;
+
+  transform-origin: center;
+  transform: scale(1);
+  transition: transform .3s;
+
+
+  &:hover {
+    color: colors.$primary-color;
+    background-color: colors.$light-color;
+    border: 1px solid colors.$primary-color;
+
+    transform: scale(1.1);
+  }
+}

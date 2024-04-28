@@ -1,0 +1,33 @@
+@use '../abstracts/colors';
+
+.row {
+  // display: flex;
+}
+
+.hero__content {
+  margin-block: 10rem;
+
+  .heading {
+    font-size: 3.75rem;
+    margin-block: 0.75rem;
+  }
+
+  .subtext {
+    font-size: 1.5rem;
+    margin-block: 0.5rem;
+    border-bottom: 0.25rem solid colors.$dark-color;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+
+    span {
+      color: colors.$primary-color;
+      font-weight: bold;
+    }
+  }
+
+  .cta {
+    // font-size: 1.25rem;
+    margin-block: 2.25rem;
+    // display: block;
+  }
+}
