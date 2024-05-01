@@ -1,15 +1,36 @@
 @use '../abstracts/colors';
 
-.project {
-  .heading {
-    font-size: 2rem;
-    margin-block: 0.75rem;
+.card {
+  .card__header {
+    .heading {
+      font-size: 2rem;
+      margin-block: 0.75rem;
+    }
+  
+    .subheading {
+      font-weight: bold;
+      color: colors.$primary-color;
+      text-transform: uppercase;
+      letter-spacing: 0.25rem;
+    }
   }
+  
+  .card__body {
 
-  .subheading {
-    font-weight: bold;
-    color: colors.$primary-color;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
+  }
+  
+  .card__footer {
+    .tags {
+      display: flex;
+      
+      .tag {
+        font-weight: bold;
+        font-size: 0.75rem;
+      }
+    }
+    
+    .external {
+      display: flex;
+    }
   }
 }

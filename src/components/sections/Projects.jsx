@@ -13,31 +13,33 @@ function Projects() {
 
           {/* Column 1 */}
           {/* Card */}
-          <article className="container">
+          <article className="container card">
 
             {/* Card Header */}
-            <div className="project">
+            <div className="card__header">
               <p className="subheading">Personal Project</p>
               <h2 className="heading">Portfolio Version I</h2>
             </div>
 
             {/* Card Body */}
-            <div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit optio dolor facilis sint. Nulla vero velit itaque explicabo exercitationem quo!</p>
+            <div className="card__body">
+              <p>An earlier and alternative version of my personal portfolio. 
+                It features a static page with three sections including my projects. 
+                The design of this project was inspired by Google Chrome's Developer Tools Console.</p>
             </div>
     
             {/* Card Footer */}
-            <div>
+            <div className="card__footer">
               <div>
-                <ul>
-                  <li>tag</li>
-                  <li>tag</li>
-                  <li>tag</li>
+                <ul className="tags">
+                  <li className="tag">React</li>
+                  <li className="tag">Sass</li>
+                  <li className="tag">Figma</li>
                 </ul>
               </div>
             
               <div>
-                <ul>
+                <ul className="external">
                   <li>
                   <a href=""><FaGithub /></a>
                   </li>
