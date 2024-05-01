@@ -8,16 +8,49 @@ header {
   background-color: colors.$primary-color;
   color: colors.$light-color;
 
+  position: relative;
+  z-index: 1;
+    
+    &:before,
+    &:after {
+      background: inherit;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+  
+    &:before {
+      top: 0;
+      transform: skewY(0deg);
+      transform-origin: 0% 0;
+    }
+    
+    &:after {
+      bottom: 0;
+      transform: skewY(-3deg);
+      transform-origin: 100%;
+    }
+  
+
   div {
     display: flex;
     align-items: center;
     margin-block: 1.8rem;
 
     .logo {
-      font-size: 1.75rem;
-      font-weight: normal;
-      opacity: 0.9;
+      font-size: 1.5rem;
+      // font-weight: normal;
+      // opacity: 0.5;
+
+      // &:hover {
+      //   opacity: 1;
+      // }
     }
+
 
     nav {
       margin-left: auto;

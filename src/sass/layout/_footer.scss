@@ -8,6 +8,41 @@ footer {
   padding-block: 1.8rem;
   background-color: colors.$primary-color;
 
+  position: relative;
+  z-index: 1;
+  
+    &:before,
+    &:after {
+      background: inherit;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+  
+    &:before {
+      top: 0;
+      transform: skewY(-4deg);
+      transform-origin: 0% 0;
+    }
+    
+    &:after {
+      bottom: 0;
+      transform: skewY(0deg);
+      transform-origin: 100%;
+    }
+  
+
+
+
+
+
+
+
+
   .social {
     ul {
       display: flex;

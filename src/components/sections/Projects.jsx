@@ -16,9 +16,9 @@ function Projects() {
           <article className="container">
 
             {/* Card Header */}
-            <div>
+            <div className="project">
               <p className="subheading">Personal Project</p>
-              <h2>Project Title</h2>
+              <h2 className="heading">Portfolio Version I</h2>
             </div>
 
             {/* Card Body */}
@@ -51,9 +51,9 @@ function Projects() {
           </article>
 
           {/* Column 2 */}
-          <div>
+          {/* <div>
             Image Here
-          </div>
+          </div> */}
 
         </div>
 
