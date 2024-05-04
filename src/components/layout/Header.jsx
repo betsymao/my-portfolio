@@ -14,7 +14,7 @@ function Header() {
           <nav>
             <ul>
               <li>
-                <a href="#work">Work</a>
+                <a href="#works">Work</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>

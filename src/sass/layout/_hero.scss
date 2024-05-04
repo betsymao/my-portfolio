@@ -1,15 +1,12 @@
 @use '../abstracts/colors';
 
-.row {
-  // display: flex;
-}
-
 .hero__content {
-  margin-block: 10rem;
+  // margin-bottom: 10rem;
 
   .heading {
     font-size: 3.75rem;
-    margin-block: 0.75rem;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
   }
 
   .subtext {
@@ -27,7 +24,7 @@
 
   .cta {
     // font-size: 1.25rem;
-    margin-block: 2.25rem;
+    margin-top: 2.25rem;
     // display: block;
   }
 }

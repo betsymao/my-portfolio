@@ -9,7 +9,7 @@ import { IconContext } from "react-icons";
 function Footer() {
   return (
     <>
-      <footer id="#contact">
+      <footer id="contact">
 
         <div className="social">
           <ul>

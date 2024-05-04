@@ -5,6 +5,7 @@
 @use '../abstracts/colors';
 
 header {
+  margin-bottom: 10rem;
   background-color: colors.$primary-color;
   color: colors.$light-color;
 

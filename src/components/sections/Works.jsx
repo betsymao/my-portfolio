@@ -3,10 +3,10 @@ import {
   FaArrowUpRightFromSquare
 } from "react-icons/fa6";
 
-function Projects() {
+function Works() {
   return (
     <>
-      <section>
+      <section id="works">
 
         {/* Two columns */}
         <div>
@@ -18,13 +18,13 @@ function Projects() {
             {/* Card Header */}
             <div className="card__header">
               <p className="subheading">Personal Project</p>
-              <h2 className="heading">Portfolio Version I</h2>
+              <a href="https://betsymao.onrender.com/" className="heading__link"><h2 className="heading">Portfolio Version I</h2></a>
             </div>
 
             {/* Card Body */}
             <div className="card__body">
               <p>An earlier and alternative version of my personal portfolio. 
-                It features a static page with three sections including my projects. 
+                It features a static page with three sections. 
                 The design of this project was inspired by Google Chrome's Developer Tools Console.</p>
             </div>
     
@@ -32,6 +32,9 @@ function Projects() {
             <div className="card__footer">
               <div>
                 <ul className="tags">
+                  <li className="tag">HTML</li>
+                  <li className="tag">CSS</li>
+                  <li className="tag">JavaScript</li>
                   <li className="tag">React</li>
                   <li className="tag">Sass</li>
                   <li className="tag">Figma</li>
@@ -41,10 +44,10 @@ function Projects() {
               <div>
                 <ul className="external">
                   <li>
-                  <a href=""><FaGithub /></a>
+                    <a href="https://github.com/betsymao/portfolio-bm"><FaGithub /></a>
                   </li>
                   <li>
-                    <a href=""><FaArrowUpRightFromSquare /></a>
+                    <a href="https://betsymao.onrender.com/"><FaArrowUpRightFromSquare /></a>
                   </li>
                 </ul>
               </div>
@@ -64,4 +67,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Works;
