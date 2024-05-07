@@ -1,7 +1,9 @@
 @use '../abstracts/colors';
 
-.row {
-// grid system
+.collection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.75rem;
 }
 
 .card {
@@ -77,10 +79,4 @@
       }
     }
   }
-}
-
-.collection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.75rem;
 }

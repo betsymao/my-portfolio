@@ -3,6 +3,7 @@
 // Configuration and helpers
 @use 'abstracts/variables';
 
+
 // Base
 @use 'base/base';
 @use 'base/reset';
@@ -19,3 +20,6 @@
 
 // Components
 @use 'components/button';
+
+// Breakpoints
+@use 'abstracts/breakpoints';
