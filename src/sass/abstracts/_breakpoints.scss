@@ -1,4 +1,21 @@
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+  header {
+      .toggle__btn {
+        display: block;
+        margin-left: auto;
+      }
+    
+
+    nav {
+      .menu {
+        flex-direction: column;
+        // align-items: start;
+        background: green;
+
+      }
+    }
+  }
+
   .collection {
     grid-template-columns: repeat(1, 1fr);
   }

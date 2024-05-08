@@ -1,24 +1,35 @@
-import Logo from '../../assets/logo.svg';
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import { FaBarsStaggered } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  
   return (
     <>
       <header>
         <div className="container">
-          {/* <a href="/"><img src={Logo} alt="Logo" /></a> */}
           
           <div>
-            <a href="/" className="logo">Betsy Mao</a>
+            <Link to="/" className="logo">Betsy Mao</Link>
           </div>
+
+          {/* <div className="toggle"> */}
+            {/* <button><FaTimes /></button> */}
+            <button className="toggle__btn"><FaBarsStaggered /></button>
+          {/* </div> */}
 
           <nav>
             <ul>
-              <li>
-                <a href="#works">Work</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
+              <div className="menu">
+                <li>
+                  <HashLink to="#works">Works</HashLink>
+                </li>
+                <li>
+                  <HashLink to="#contact">Contact</HashLink>
+                </li>
+              </div>
             </ul>
           </nav>
         </div>
