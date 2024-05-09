@@ -1,3 +1,4 @@
+// Components
 import Hero from '../components/sections/Hero';
 import Works from '../components/sections/Works';
 

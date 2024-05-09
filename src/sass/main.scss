@@ -1,19 +1,13 @@
 @charset "UTF-8";
 
-// Configuration and helpers
-@use 'abstracts/variables';
-
-
 // Base
 @use 'base/base';
 @use 'base/reset';
-@use 'base/typography';
 
 // Layout-related sections
 @use 'layout/header';
 @use 'layout/hero';
 @use 'layout/footer';
-@use 'layout/nav';
 @use 'layout/layout';
 @use 'layout/container';
 @use 'layout/works';

@@ -6,47 +6,42 @@
 
 .btn {
   padding: 0.75rem 1.5rem;
-  // background: green;
   color: colors.$light-color;
-  // background-color: colors.$primary-color;
-  // border-radius: 1rem;
 
-  &:before,
-  &:after {
-    background: colors.$primary-color;
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: -1;
-  }
+    &:before,
+    &:after {
+      background: colors.$primary-color;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
 
-  &:before {
-    top: 0;
-    transform: skew(15deg);
-    // transform-origin: 0% 0;
-  }
+    &:before {
+      top: 0;
+      transform: skew(15deg);
+    }
 
-  &:hover:before,
-  &:hover:after  {
-    background: colors.$light-color;
-    border: 1px solid colors.$primary-color;
-  }
-  
-  &:after {
-    bottom: 0;
-    transform: skew(15deg);
-    // transform-origin: 100%;
-  }
+    &:hover:before,
+    &:hover:after  {
+      background: colors.$light-color;
+      border: 1px solid colors.$primary-color;
+    }
+    
+    &:after {
+      bottom: 0;
+      transform: skew(15deg);
+    }
 
-  transform-origin: center;
-  transform: scale(1);
-  transition: transform .3s;
+    transform-origin: center;
+    transform: scale(1);
+    transition: transform .3s;
 
-  &:hover {
-    color: colors.$primary-color;
-    transform: scale(1.1);
-  }
+    &:hover {
+      color: colors.$primary-color;
+      transform: scale(1.1);
+    }
 }

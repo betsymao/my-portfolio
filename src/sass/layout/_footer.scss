@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
+// This file contains all styles related to the footer of the site.
 // -----------------------------------------------------------------------------
 
 @use '../abstracts/colors';
@@ -36,14 +36,6 @@ footer {
       transform-origin: 100%;
     }
   
-
-
-
-
-
-
-
-
   .social {
     ul {
       display: flex;
@@ -53,7 +45,7 @@ footer {
         padding: 2.4rem;
 
         a {
-          color: #ffffff;
+          color: colors.$light-color;
           transform-origin: center;
           transform: scale(1);
           transition: transform .3s;

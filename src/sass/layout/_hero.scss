@@ -1,8 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the hero section of the site.
+// -----------------------------------------------------------------------------
+
 @use '../abstracts/colors';
 
 .hero__content {
-  // margin-bottom: 10rem;
-
   .heading {
     font-size: 3.75rem;
     margin-top: 0;
@@ -23,8 +25,6 @@
   }
 
   .cta {
-    // font-size: 1.25rem;
     margin-top: 2.25rem;
-    // display: block;
   }
 }

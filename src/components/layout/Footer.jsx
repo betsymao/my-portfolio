@@ -2,9 +2,11 @@
 import { 
   FaLinkedin,
   FaGithub
-} from "react-icons/fa6";
+} from 'react-icons/fa6';
 
-import { IconContext } from "react-icons";
+// Configure react-icons props using React Context API
+// https://www.npmjs.com/package/react-icons
+import { IconContext } from 'react-icons';
 
 function Footer() {
   return (

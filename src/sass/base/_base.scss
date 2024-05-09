@@ -1,3 +1,7 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the base of the site.
+// -----------------------------------------------------------------------------
+
 @use '../abstracts/colors';
 
 body {
@@ -5,7 +9,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-// Global hyperlinks
 a {
   font-weight: bold;
   color: inherit;
