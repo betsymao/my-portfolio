@@ -19,7 +19,9 @@ function Header() {
             </div>
 
             <div className="toggle" onClick={() => setToggleOpen(!toggleOpen)}>
-              <button className="toggle__btn"><FaBarsStaggered /></button>
+              <div className="toggle__btn">
+                <FaBarsStaggered />
+              </div>
             </div>
 
             <ul className={toggleOpen ? "open" : ""}>
