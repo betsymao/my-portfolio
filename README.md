@@ -17,5 +17,5 @@ View the Live Demo at *https://maobetsy.onrender.com/*
 
 - [React](https://react.dev/)
 - [Sass](https://sass-lang.com/)
-- [Bootstrap Icons](https://react-icons.github.io/react-icons/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [Figma](https://www.figma.com/)
