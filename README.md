@@ -11,7 +11,7 @@ A static page to showcase my front-end design and projects.
 
 ## Deployment
 
-View the Live Demo at \*\*
+View the Live Demo at *https://maobetsy.onrender.com/*
 
 ## Built With
 
